@@ -28,3 +28,13 @@ S/W
 4. simple code link
      http://cafe.naver.com/openrt/494
      https://app.box.com/s/o21oqt127f1bvnn8swh2pmp48y2nbsm7
+
+Runing
+1. make
+2. create test file
+3. sudo ./test
+
+screen
+> CO2 Value = 565 now=4095 avr=4095.0
+
+
