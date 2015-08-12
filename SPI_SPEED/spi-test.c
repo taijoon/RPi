@@ -64,10 +64,6 @@ int main (void)
   {
     timer1 = time(NULL);
     if((timer1 - timer2) == 0){
-      if(Cnt > 4094){
-	usleep(50);
-	continue;
-	}
       Cnt++;
     }
     else{
@@ -83,6 +79,7 @@ int main (void)
       timer2 = timer1;
     }
     adcValue = read_mcp3208_adc(adcChannel);
+    usleep(50);
   }
 
   return 0;
